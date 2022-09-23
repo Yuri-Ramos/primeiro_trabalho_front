@@ -1,22 +1,286 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conteudo</title>
-</head>
-<body>
-    <div class="container">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"defer></script>
+    <title>Primeiro Trabalho FrontEnd</title>
+  </head>
+  <body>
 
-        <header>
-            <h1>Menu</h1>
-            <ol> Projetos</ol>
-            <ol> documentação</ol>
-            <ol> Projetos</ol>
-        </header>
+    <header>
+        <!-- barra superior -->
+        <nav id="barra" class="navbar bg-light position-fixed col-12 c-a" style="z-index: 999;" >
+            <div class="container "   >
+              <a class="navbar-brand" href="https://serratec.org/">
+                <img src="./img/07accb00ed6ea5921c55861a66afee97_logo.png" alt="Logo" width="160" height="32" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+        <!-- navegação -->
+        <br/><br/><br/>
+        
+        
+        <ul class=" nav nav-tabs text-bg-light position-fixed" style="z-index: 999;">
+            <li class="nav-item">
+              <a class="nav-link active item" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conteudo</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item item " href="#estrutura">Estrutura Básica Html</a></li>
+                <li><a class="dropdown-item item " href="#htmlsema">Html Semântico</a></li>
+                <li><a class="dropdown-item item " href="#cssbasico">Estilos Básicos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item item " href="https://linktr.ee/yro_ramos">contatos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://serratec.org/">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="https://github.com/Yuri-Ramos">Yuri-Ramos</a>
+            </li>
+          </ul>
+          
+  
+    </header>
+    <br/><br/><br/>
+    <main>
+        <div idclass="conteiner">
+        <br/><br/>
+      <section id="estrutura">
+        <div class="col-10 m-auto content">
+            <br/><br/>
+            <h1 >Estrutura Básica de Html</h1>
+            <br/>
+                <h2>Tags HTML</h2>
+                <p>Os servidores leem o código HTML para entender e renderizar o conteúdo. Ele lerá o HTML de cima para baixo, assim como você está lendo este guia. 
+        
+                  Você pode usar quantas tags quiser para formatar o conteúdo. No entanto, existem algumas tags e regras HTML essenciais que você precisará seguir. 
+                  
+                  Uma tag HTML deve conter três partes:
+                  
+                  Uma tag de abertura — isso começará com um símbolo < >
+                  Conteúdo — as instruções curtas sobre como exibir o elemento na página
+                  Uma tag de fechamento — isso terminará com um símbolo </ >
+                  No entanto, algumas tags HTML podem ser abertas. Isso significa que a tag HTML não precisa ser fechada com um </ >. Você normalmente usará tags não fechadas para metadados ou quebras de linha. </p>
+                <h2>H1 a H6</h2>
+                <p>
+                  Elementos de cabeçalho são implementados em seis níveis, H1 é o mais
+                  importante e H6 é o de menor importância. Um elemento de cabeçalho
+                  descreve brevemente o tópico da seção em que ele está. As informações
+                  de cabeçalho podem ser usadas por agentes de usuário, por exemplo,
+                  para construir uma tabela de conteúdos para um documento
+                  automaticamente.
+                </p>
+                <h2>title: O titulo do documento.</h2>
+                <p>O elemento HTML title define o título do documento, mostrado na barra de título de um navegador ou na aba da página. Pode conter somente texto e quaisquer marcações contidas no texto não são interpretadas.</p>
+                <h2>body:</h2>
+                <p>O elemento body do HTML representa o conteúdo de um documento HTML. è permitido apenas um body por documento.</p>
+                <h2>(P:O elemento Parágrafo</h2>
+                <p>O elemento HTML p representa um parágrafo. Em mídias visuais, parágrafos são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco. Já em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.</p>
+                <h2>a:</h2>
+                <p>O elemento a em HTML (ou elemento âncora), com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada a precisará indicar o destino do link.</p>
+                <h2>img:</h2>
+                <p>O elemento HTML img (or HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento</p>
+                <h2>br:</h2>
+                <p>O elemento HTML quebra-de-linha br produz uma quebra de linha em um texto (carriage-return).É útil para escrever poemas ou um endereço, onde a divisão de linha é significante.</p>
+                <h2>Código comentado com exemplo no código fonte da pagina</h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div id="Estruturabasica" class="conteiner">
 
 
+        </div>
+      </section>
     </div>
-</body>
+      <section id="htmlsema">
+        <div class="content">
+          <h2>header (cabeçalho):</h2>
+          <p>
+            O elemento HTML header representa um grupo de suporte introdutório
+            ou navegacional. Pode conter alguns elementos de cabeçalho mas
+            também outros elementos como um logo, seções de cabeçalho,
+            formulário de pesquisa, e outros.
+          </p>
+          <h2>nav:</h2>
+          <p>
+            O Elemento HTML de Navegação nav representa uma seção de uma página
+            que aponta para outras páginas ou para outras áreas da página, ou
+            seja, uma seção com links de navegação.
+          </p>
+          <h2>main:</h2>
+          <p>
+            O elemento main define o conteúdo principal dentro do body em seu
+            documento ou aplicação. Entende-se como conteúdo principal aquele
+            relacionado diretamente com o tópico central da página ou com a
+            funcionalidade central da aplicação. O mesmo deverá ser único na
+            página, ou seja, dentro do elemento main não deverão ser incluídas
+            seções da página que sejam comuns a todo o site ou aplicação, tais
+            como mecanismos de navegação, informações de copyright, logotipo e
+            campos de busca (a não ser, é claro, caso a função principal do
+            documento seja fazer algum tipo de busca).
+          </p>
+          <h2>aside:</h2>
+          <p>
+            O elemento HTML aside representa uma seção de uma página que
+            consiste de conteúdo que é tangencialmente relacionado ao conteúdo
+            do seu entorno, que poderia ser considerado separado do conteúdo.
+            Essas seções são, muitas vezes, representadas como barras laterais.
+            Elas muitas vezes contem explicações laterais, como a definição de
+            um glossário; conteúdo vagamente relacionado, como avisos; a
+            biografia do autor; ou, em aplicações web, informações de perfil ou
+            links de blogs relacionados.
+          </p>
+          <h2>article:</h2>
+          <p>
+            The article HTML element represents a self-contained composition in
+            a document, page, application, or site, which is intended to be
+            independently distributable or reusable (e.g., in syndication).
+            Examples include: a forum post, a magazine or newspaper article, or
+            a blog entry, a product card, a user-submitted comment, an
+            interactive widget or gadget, or any other independent item of
+            content.
+          </p>
+          <h2>footer:</h2>
+          <p>
+            O elemento HTML de Rodapé (footer) representa um rodapé para o seu
+            sectioning content (conteúdo de seção) mais próximo ou sectioning
+            root elemento (ou seja, seu parente mais próximo article, aside,
+            nav, section, blockquote, body, details, fieldset, figure, td
+            (en-US)). Normalmente um rodapé contém informações sobre o autor da
+            seção de dados, direitos autorais ou links para documentos
+            relacionados.
+          </p>
+          <h2>Imagem demonstrativa</h2>
+          <br><br>
+          <img src="https://miro.medium.com/max/720/1*NjJoYvshr5Jyj4HMu0aXnA.jpeg" alt="Imagem demonstrativa sobre html semântico">
+        </div>
+      </section>
+      <section id="cssbasico">
+        <div class="content">
+          <h1>--Estilos--</h1>
+          <br />
+          <div class="tipocss">
+            <h1>CSS Interno:</h1>
+            <p>
+              O CSS interno ou incorporado requer que você adicione a tags style
+              na seção head do seu documento HTML
+            </p>
+            <h1>CSS externo:</h1>
+            <p>
+              Com o CSS externo, você vai linkar as páginas da internet com um
+              arquivo .css externo, que você pode criar usando qualquer editor
+              de texto no seu dispositivo. Este tipo de CSS é um método mais
+              eficiente, especialmente se você está estilizando um site grande.
+              Ao editar um arquivo .css, você pode modificar um site inteiro de
+              uma só vez.
+            </p>
+            <h1>CSS Inline:</h1>
+            <p>
+              O CSS inline é usado para dar estilo a um elemento HTML
+              específico. Para este estilo de CSS você somente vai precisar
+              adicionar o atributo style para cada tag HTML, sem usar os
+              seletores. Este tipo de CSS não é realmente recomendado, já que
+              cada tag HTML precisa ser estilizada de maneira individual.
+              Gerenciar o seu site pode se tornar uma tarefa bem difícil de você
+              só usa o CSS inline. Contudo, o CSS inline no HTML pode ser útil
+              para algumas situações. Por exemplo, sem casos onde você não tem
+              acesso aos arquivos CSS ou precisa aplicar estilos para um
+              elemento único.
+            </p>
+          </div>
+          <div class="text">
+            <h1>estilização de texto:</h1>
+            <br />
+            <h3>Propriedade: font-family</h3>
+            <p>
+              font-family é utilizada para definir uma lista de fontes e sua
+              prioridade para apresentação de um elemento HTML
+            </p>
+            <h3>Propriedade: color</h3>
+            <p>
+              A propriedade color é utilizada para definir a cor de um elemento.
+            </p>
+            <h3>Propriedade: font-size</h3>
+            <p>
+              A propriedade font-size é utilizada para definir o tamanho da
+              fonte de um elemento.
+            </p>
+            <h3>Propriedade: font-style</h3>
+            <p>
+              A propriedade font-style é utilizada para definir um estilo para a
+              fonte, que pode ser: normal ou italic.
+            </p>
+            <h3>Propriedade: font-weight</h3>
+            <p>
+              A propriedade font-weight é utilizada para definir outro tipo de
+              estilo para uma fonte. Podendo os valores serem normal ou bold.
+            </p>
+            <h3>Propriedade: text-align</h3>
+            <p>
+              A propriedade text-align é utilizada para definir o alinhamento de
+              um elemento. Podendo ele ser alinhado à esquerda (left), à direita
+              (right), centralizado (center), ou justificado (justify), que é
+              quando o texto contido em uma linha se estende tocando as margens
+              esquerda e direita, tal como você vê em jornais e revistas.
+            </p>
+            <h3>Propriedade: text-indent</h3>
+            <p>
+              A propriedade text-indent é utilizada para definir um recuo na
+              primeira linha de um parágrafo.
+            </p>
+          </div>
+          <div class="boxmodel">
+            <h1>box model:</h1>
+            <br />
+            <img
+              src="https://www.alura.com.br/artigos/assets/entendendo-como-funciona-box-model-e-o-box-sizing/box-model-no-devtools.png"
+              alt="Box model"
+            />
+            <p>
+              Em uma página WEB, cada elemento é representado como um box
+              retangular. Determinar o tamanho, propriedades - como sua cor,
+              fundo, estilo das bordas - e a posição desses boxes é o objetivo
+              do mecanismo de renderização. No CSS, cada um desses boxes
+              retangulares é descrita usando o box model padrão. Este modelo
+              descreve o conteúdo do espaço ocupado por um elemento. Cada box
+              possui 4 edges: margin edge, border edge, padding edge e content
+              edge.
+            </p>
+            <p>
+              Se a propriedade CSS box-sizing está configurada como padrão, as
+              propriedades CSS width, min-width (en-US), max-width, height,
+              min-height e max-height (en-US) controlam o tamanho do conteúdo.
+            </p>
+            <p>
+              A área de preenchimento (padding area) estende-se para a borda em
+              torno do enchimento. Quando a área de conteúdo tem um fundo, cor
+              ou imagem, isso será estendido para a área de preenchimento, por
+              esse motivo, você pode pensar o preenchimento como a extensão do
+              conteúdo. O preenchimento está localizado dentro do padding edge,
+              e suas dimensões são a largura do padding-box e a altura do
+              padding-box.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer style="background-color: #333;" class="page-footer font-small blue p-4">
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/yuri-ramos-a49a461b4/">linkedin</a>
+        </div>
+
+      </footer>
+  </body>
 </html>

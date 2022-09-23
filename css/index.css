@@ -1,0 +1,24 @@
+.item{
+    color: rgb(135, 108, 108);
+    font-size: 24px;
+    background-color: brown;
+}
+/* barra topo-logo */
+.c-a{
+  
+    font-size: 5px;
+    background-color: rgb(41, 11, 11);
+    padding: 4px;
+    
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align-last: left;
+    font-size: large;
+    font-size: 24px;
+}
