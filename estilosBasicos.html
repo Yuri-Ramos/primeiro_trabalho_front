@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"defer></script>
+</head>
+<body>
+    <header> 
+
+        <!-- topo -->
+        <nav id="barra" class="navbar bg-light position-fixed col-12 c-a" style="z-index: 999;" >
+            <div class="container "   >
+                <a class="navbar-brand" href="https://serratec.org/" target="_blank">
+                    <img src="./img/07accb00ed6ea5921c55861a66afee97_logo.png" alt="Logo" width="160" height="32" class="d-inline-block align-text-top">
+                    
+          </a>
+        </div>
+    </nav>
+    <br/><br/><br/>
+    <!-- menu opções -->
+    <ul class=" nav nav-tabs text-bg-light position-fixed" style="z-index: 999;">
+        <li class="nav-item">
+      <a class="nav-link active item" aria-current="page" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conteudo</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item item " href="./estruturasbasicas.html">Estrutura Básica Html</a></li>
+            <li><a class="dropdown-item item " href="./HtmlSemantico.html">Html Semântico</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item item " href="https://linktr.ee/yro_ramos"target="_blank">Contate-me</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="https://serratec.org/"target="_blank">Parceiros</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="https://github.com/Yuri-Ramos"target="_blank">Yuri-Ramos</a>
+    </li>
+</ul>
+</header>
+<main>
+    <div idclass="conteiner">
+    <br/><br/>
+    <section id="cssbasico">
+        <div class="content">
+          <h1>--Estilos Basicos CSS--</h1>
+          <br />
+          <div class="tipocss">
+            <h2>CSS Interno:</h2>
+            <p>
+              O CSS interno ou incorporado requer que você adicione a tags style
+              na seção head do seu documento HTML
+            </p>
+            <h2>CSS externo:</h2>
+            <p>
+              Com o CSS externo, você vai linkar as páginas da internet com um
+              arquivo .css externo, que você pode criar usando qualquer editor
+              de texto no seu dispositivo. Este tipo de CSS é um método mais
+              eficiente, especialmente se você está estilizando um site grande.
+              Ao editar um arquivo .css, você pode modificar um site inteiro de
+              uma só vez.
+            </p>
+            <h2>CSS Inline:</h2>
+            <p>
+              O CSS inline é usado para dar estilo a um elemento HTML
+              específico. Para este estilo de CSS você somente vai precisar
+              adicionar o atributo style para cada tag HTML, sem usar os
+              seletores. Este tipo de CSS não é realmente recomendado, já que
+              cada tag HTML precisa ser estilizada de maneira individual.
+              Gerenciar o seu site pode se tornar uma tarefa bem difícil de você
+              só usa o CSS inline. Contudo, o CSS inline no HTML pode ser útil
+              para algumas situações. Por exemplo, sem casos onde você não tem
+              acesso aos arquivos CSS ou precisa aplicar estilos para um
+              elemento único.
+            </p>
+          </div>
+          <div class="text">
+            <h2>estilização de texto:</h2>
+            <br />
+            <h2>Propriedade: font-family</h2>
+            <p>
+              font-family é utilizada para definir uma lista de fontes e sua
+              prioridade para apresentação de um elemento HTML
+            </p>
+            <h3>Propriedade: color</h3>
+            <p>
+              A propriedade color é utilizada para definir a cor de um elemento.
+            </p>
+            <h3>Propriedade: font-size</h3>
+            <p>
+              A propriedade font-size é utilizada para definir o tamanho da
+              fonte de um elemento.
+            </p>
+            <h3>Propriedade: font-style</h3>
+            <p>
+              A propriedade font-style é utilizada para definir um estilo para a
+              fonte, que pode ser: normal ou italic.
+            </p>
+            <h3>Propriedade: font-weight</h3>
+            <p>
+              A propriedade font-weight é utilizada para definir outro tipo de
+              estilo para uma fonte. Podendo os valores serem normal ou bold.
+            </p>
+            <h3>Propriedade: text-align</h3>
+            <p>
+              A propriedade text-align é utilizada para definir o alinhamento de
+              um elemento. Podendo ele ser alinhado à esquerda (left), à direita
+              (right), centralizado (center), ou justificado (justify), que é
+              quando o texto contido em uma linha se estende tocando as margens
+              esquerda e direita, tal como você vê em jornais e revistas.
+            </p>
+            <h3>Propriedade: text-indent</h3>
+            <p>
+              A propriedade text-indent é utilizada para definir um recuo na
+              primeira linha de um parágrafo.
+            </p>
+          </div>
+          <div class="boxmodel">
+            <h2>Box model:</h2>
+            <br />
+            <center>
+                <img 
+                src="https://www.alura.com.br/artigos/assets/entendendo-como-funciona-box-model-e-o-box-sizing/box-model-no-devtools.png"
+                alt="Box model "
+                />
+            </center>
+            <p>
+              Em uma página WEB, cada elemento é representado como um box
+              retangular. Determinar o tamanho, propriedades - como sua cor,
+              fundo, estilo das bordas - e a posição desses boxes é o objetivo
+              do mecanismo de renderização. No CSS, cada um desses boxes
+              retangulares é descrita usando o box model padrão. Este modelo
+              descreve o conteúdo do espaço ocupado por um elemento. Cada box
+              possui 4 edges: margin edge, border edge, padding edge e content
+              edge.
+            </p>
+            <p>
+              Se a propriedade CSS box-sizing está configurada como padrão, as
+              propriedades CSS width, min-width (en-US), max-width, height,
+              min-height e max-height (en-US) controlam o tamanho do conteúdo.
+            </p>
+            <p>
+              A área de preenchimento (padding area) estende-se para a borda em
+              torno do enchimento. Quando a área de conteúdo tem um fundo, cor
+              ou imagem, isso será estendido para a área de preenchimento, por
+              esse motivo, você pode pensar o preenchimento como a extensão do
+              conteúdo. O preenchimento está localizado dentro do padding edge,
+              e suas dimensões são a largura do padding-box e a altura do
+              padding-box.
+            </p>
+                <br/>
+                <center>
+
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics" ><button type="button" class="btn btn-primary">Ler mais ..</button></a>
+                </center>
+            <br/> <br/>
+
+          </div>
+        </div>
+      </section>
+
+
+<footer style="background-color: #333;" class="page-footer font-small blue p-4">
+        <div class="text-center">
+            <a href="https://www.linkedin.com/in/yuri-ramos-a49a461b4/">linkedin</a>
+        </div>
+
+      </footer>
+</body>
+</html>
